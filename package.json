@@ -5,7 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "styleguide": "vue-cli-service styleguidist",
+    "styleguide:build": "vue-cli-service styleguidist:build"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -18,7 +20,8 @@
     "vxe-table-plugin-export-xlsx": "^1.6.0",
     "vxe-table-plugin-menus": "^1.4.0",
     "xe-clipboard": "^1.9.0",
-    "xe-utils": "2.8.3"
+    "xe-utils": "2.8.3",
+    "xlsx": "0.16.8"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -28,6 +31,7 @@
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "vue-cli-plugin-element": "~1.0.1",
+    "vue-cli-plugin-styleguidist": "~4.35.0",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
