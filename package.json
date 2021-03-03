@@ -1,13 +1,18 @@
 {
-  "name": "bs-lib",
-  "version": "0.1.0",
-  "private": true,
+  "name": "boss-lib-component",
+  "version": "1.0.1",
+  "author": "qingyu",
+  "description": "component library of B.S",
+  "private": false,
+  "main": "lib/bs-lib.umd.min.js",
+  "style": "lib/bs-lib.css",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "styleguide": "vue-cli-service styleguidist",
-    "styleguide:build": "vue-cli-service styleguidist:build"
+    "styleguide:build": "vue-cli-service styleguidist:build",
+    "lib": "vue-cli-service build --target lib --name bs-lib --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
