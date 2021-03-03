@@ -1,5 +1,11 @@
 # bs-lib
 
+
+### docs 
+https://xiangergou.github.io/bs-lib/
+
+首次打开可能较为缓慢
+
 ## Project setup
 ```
 npm install
@@ -22,3 +28,4 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
