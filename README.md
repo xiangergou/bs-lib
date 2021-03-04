@@ -4,7 +4,7 @@
 ### docs 
 https://xiangergou.github.io/bs-lib/
 
-首次打开可能较为缓慢
+首次打开可能较为缓慢 版本的readme更换尝试1
 
 ## Project setup
 ```

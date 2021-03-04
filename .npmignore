@@ -5,7 +5,10 @@ node_modules/
 
 .history
 
-examples/
+docs/
+
+styleguide/
+
 
 packages/
 
@@ -20,6 +23,8 @@ jest.config.js
 vue.config.js
 
 babel.config.js
+
+styleguide.config.js
 
 *.map
 

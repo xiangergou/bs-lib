@@ -2,7 +2,7 @@
  * @Author: 轻语
  * @Date: 2021-03-02 17:33:28
  * @LastEditors: 轻语
- * @LastEditTime: 2021-03-02 17:35:00
+ * @LastEditTime: 2021-03-03 11:43:10
  * @Description: 
  */
 
@@ -11,8 +11,6 @@ import BsTreeInput from "./bs-tree-input";
 
 // 组件集合，用于遍历
 const components = [BsTreeInput];
-
-console.log({ components });
 
 // 定义 install 方法
 const install = function(Vue) {

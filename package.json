@@ -1,6 +1,6 @@
 {
   "name": "boss-lib-component",
-  "version": "0.0.2",
+  "version": "1.0.8",
   "author": "qingyu",
   "description": "component library of B.S",
   "private": false,
@@ -41,6 +41,10 @@
     "vue-cli-plugin-element": "~1.0.1",
     "vue-cli-plugin-styleguidist": "~4.35.0",
     "vue-template-compiler": "^2.6.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiangergou/bs-lib"
   },
   "eslintConfig": {
     "root": true,
