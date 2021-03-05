@@ -2,7 +2,7 @@
  * @Author: 轻语
  * @Date: 2021-03-01 11:48:22
  * @LastEditors: 轻语
- * @LastEditTime: 2021-03-01 11:49:07
+ * @LastEditTime: 2021-03-05 11:33:09
  * @Description: 
  */
 module.exports = {
@@ -15,4 +15,7 @@ module.exports = {
         filename: 'index.html',
       },
     },
+    css: {
+      extract: false
+    }
   };    

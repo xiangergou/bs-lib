@@ -5,6 +5,7 @@
       {
         "libraryName": "boss-lib-component", // 组件名
         "libraryDirectory": "packages" // 组件源码包名
+        // "styleLibraryName": "theme-chalk"
       }
     ]
   ]

@@ -2,7 +2,7 @@
  * @Author: 轻语
  * @Date: 2021-03-02 17:33:28
  * @LastEditors: 轻语
- * @LastEditTime: 2021-03-03 11:43:10
+ * @LastEditTime: 2021-03-05 16:41:46
  * @Description: 
  */
 
@@ -24,6 +24,11 @@ if (typeof window !== "undefined" && window.Vue) {
   install(window.Vue);
 }
 
+
+export {
+  install, 
+  BsTreeInput
+};
 
 export default {
   install, 
