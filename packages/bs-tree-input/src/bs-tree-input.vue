@@ -1054,45 +1054,45 @@ export default {
 }
 </script>
 <style lang="scss" scope>
-  .boss-tree__input{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    .boss-tree__input_title{
-      line-height: 40px;
-      flex-shrink: 0;
-      max-width: 320px;
-      text-align: right;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      /* padding-right: .8em; */
-      font-size: 14px;
-      vertical-align: middle;
-      display: inline-block;
-    }
-    .el-select{
-      display:block;
-      height: 40px;
-      display: inline-block;
-      position: relative;
-      -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-      flex-grow: 1;
-    }
+.boss-tree__input{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  .boss-tree__input_title{
+    line-height: 40px;
+    flex-shrink: 0;
+    max-width: 320px;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* padding-right: .8em; */
+    font-size: 14px;
+    vertical-align: middle;
+    display: inline-block;
   }
-  .boss-tree__input_tree{
-    min-height: 200px;
-    .el-scrollbar .el-scrollbar__view .el-select-dropdown__item {
-      height: auto;
-      max-height: 274px;
-      padding: 0;
-      overflow: hidden;
-      overflow-y: auto;
-    }
-    .el-select-dropdown__item.selected{
-      font-weight: 400 !important;
-    }
+  .el-select{
+    display:block;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
   }
+}
+.boss-tree__input_tree{
+  min-height: 200px;
+  .el-scrollbar .el-scrollbar__view .el-select-dropdown__item {
+    height: auto;
+    max-height: 274px;
+    padding: 0;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+  .el-select-dropdown__item.selected{
+    font-weight: 400 !important;
+  }
+}
 </style>

@@ -1,22 +1,27 @@
 {
   "name": "boss-lib-component",
-  "version": "1.1.0",
+  "version": "1.1.3",
   "author": "qingyu",
   "description": "component library of B.S",
   "private": false,
   "main": "lib/bs-lib.umd.min.js",
   "style": "lib/bs-lib.css",
   "scripts": {
+    "gulp": "npx gulp css && npx gulp all",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "styleguide": "vue-cli-service styleguidist",
     "styleguide:build": "vue-cli-service styleguidist:build",
+    "build:style": "gulp build --gulpfile build/gulpfile.js",
     "lib": "vue-cli-service build --target lib --name bs-lib --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
     "element-ui": "^2.4.5",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-sass": "^4.1.0",
     "vue": "^2.6.11",
     "vxe-table": "2.10.4",
     "vxe-table-plugin-charts": "^1.3.0",
@@ -36,11 +41,14 @@
     "babel-plugin-import": "^1.13.3",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "gulp": "^4.0.2",
     "node-sass": "^5.0.0",
     "sass-loader": "^10.1.1",
     "vue-cli-plugin-element": "~1.0.1",
     "vue-cli-plugin-styleguidist": "~4.35.0",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "webpack-cli": "^4.5.0",
+    "webpack-node-externals": "^2.5.2"
   },
   "repository": {
     "type": "git",

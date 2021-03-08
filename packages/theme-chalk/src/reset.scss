@@ -60,13 +60,13 @@ button{
     font-weight: normal;
     font-style: normal
 }
-@font-face {
-    font-family: 'SourceHanSansCN';
-    src: url('font/SourceHanSansCN/SourceHanSansCN-Normal.otf')
-    format('otf');
-    font-weight: normal;
-    font-style: normal
-}
+// @font-face {
+//     font-family: 'SourceHanSansCN';
+//     src: url('font/SourceHanSansCN/SourceHanSansCN-Normal.otf')
+//     format('otf');
+//     font-weight: normal;
+//     font-style: normal
+// }
 
 /* 将具有默认margin和padding的标记置零 */
 *{margin:0;padding:0;}
