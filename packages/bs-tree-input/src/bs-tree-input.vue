@@ -1,43 +1,10 @@
 <template>
   <div class="boss-tree__input" :style="{ 'background-color': backgroundColor }">
-    <div v-if="showTitle" class="boss-tree__input_title">
-      <span v-if="title.require" style="color: red;">*</span>
-      <span :title="title.tip">{{ title.tip }}:&nbsp;&nbsp;</span>
-    </div>
-    <el-select
-      ref="selectRef"
-      class="boss-tree__input_select"
-      :size="size"
-      :disabled="selectDisabled"
-      :popper-class="className"
-      :filter-method="selectFilter"
-      :value="valueTitle"
-      clearable
-      filterable
-      :placeholder="editConfigIn.placeholder"
-      @visible-change="showSelectBox"
-      @click.native="selectFocus"
-      @clear="clearHandle"
-      @keyup.native.enter="enterFilter"
-    >
-      <el-option v-loading="treeLoading" :value="valueTitle" :label="valueTitle">
-        <el-tree
-          ref="selectTree"
-          class="boss-tree__input_tree"
-          :show-checkbox="checkbox"
-          :data="data"
-          :props="props"
-          :node-key="props.value"
-          :empty-text="emptyText"
-          :default-expanded-keys="defaultExpandedKey"
-          :filter-node-method="filterNode"
-          @dblclick.native="dblNodeClick"
-        />
-      </el-option>
-    </el-select>
+    <img :src="avatar" alt="">
   </div>
 </template>
 <script>
+import avatar from '@/imgs/2.jpeg'
 // import { mapGetters, mapMutations } from 'vuex'
 import check from './config/check'
 import {
@@ -256,6 +223,7 @@ export default {
   },
   data() {
     return {
+      avatar,
       className: 'boss-tree__input_tree',
       questUri: this.serverUri,
       selectDisabled: this.disabled,

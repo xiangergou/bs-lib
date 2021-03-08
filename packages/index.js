@@ -2,12 +2,12 @@
  * @Author: 轻语
  * @Date: 2021-03-02 17:33:28
  * @LastEditors: 轻语
- * @LastEditTime: 2021-03-05 16:41:46
+ * @LastEditTime: 2021-03-08 14:41:02
  * @Description: 
  */
 
 
-import BsTreeInput from "./bs-tree-input";
+import BsTreeInput from "./bs-tree-input/index.js";
 
 // 组件集合，用于遍历
 const components = [BsTreeInput];
