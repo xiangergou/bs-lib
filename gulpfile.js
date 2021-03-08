@@ -1,10 +1,3 @@
-/*
- * @Author: 轻语
- * @Date: 2021-03-08 10:21:17
- * @LastEditors: 轻语
- * @LastEditTime: 2021-03-08 11:53:35
- * @Description: 
- */
 
 'use strict';
 
@@ -38,12 +31,6 @@ function copyfont() {
     .pipe(dest('./lib/theme-chalk/fonts'));
 }
 
-function copyImg() {
-  return src('./packages/theme-chalk/imgs/**')
-    .pipe(dest('./lib/theme-chalk/imgs'));
-}
-
 gulp.task('css',compileCss, compileAll)
 gulp.task('cssAll', compileAll)
 gulp.task('font', copyfont)
-gulp.task('img', copyImg)
