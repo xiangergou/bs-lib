@@ -4,8 +4,8 @@
   </div>
 </template>
 <script>
-import merge from '../../utils/merge'
-import avatar from '@/imgs/2.jpeg'
+import merge from 'bs-lib/src/utils/merge'
+import avatar from '@/imgs/delete.png'
 // import { mapGetters, mapMutations } from 'vuex'
 import check from './config/check'
 import {

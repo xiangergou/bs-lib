@@ -17,7 +17,10 @@ module.exports = {
     configureWebpack: {
       resolve: {
         alias: {
-          '@': resolve('examples')
+          '@': resolve('examples'),
+          packages: path.resolve(__dirname, './packages'),
+          examples: path.resolve(__dirname, './examples'),
+          'bs-lib': path.resolve(__dirname, './')
         }
       }
   },
